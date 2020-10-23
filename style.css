@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+/* Estilo do Formulario */
+.estilo{
+	font-family: 'Open Sans Condensed', arial, sans;
+	width: 500px;
+	padding: 30px;
+	background: #FFFFFF;
+	margin: 50px auto;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+.estilo h2{
+	background: #4D4D4D;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #797979;
+	font-size: 18px;
+	font-weight: 100;
+	padding: 20px;
+	margin: -30px -30px 30px -30px;
+}
+.estilo input[type="text"],
+.estilo input[type="date"],
+.estilo input[type="datetime"],
+.estilo input[type="email"],
+.estilo input[type="number"],
+.estilo input[type="search"],
+.estilo input[type="time"],
+.estilo input[type="url"],
+.estilo input[type="password"],
+.estilol textarea,
+.estilo select 
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+}
+.estilo textarea{
+	resize:none;
+	overflow: hidden;
+}
+/* Estilo do Botão */
+.butao {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.butao:hover {
+	background-color:#019ad2;
+}
+.butao:active {
+	position:relative;
+	top:1px;
+}
+/* Estilo da Imagem */
+.img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+    box-sizing: border-box;
+    
+}
+/* Estilo do roda-pé */
+.footer{
+    background-image: url("footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 100px 0 100px 0;
+}
+/*Estilo do Ícone do roda-pé*/
+.row {
+    @include make-row();
+  }
+/* Estilo do Avatar */
+.avatar{
+    width: 170px;
+    height: auto;
+    padding: 10px 0 30px 0;
+}
